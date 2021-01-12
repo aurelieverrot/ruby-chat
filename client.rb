@@ -10,7 +10,6 @@ def local_typing socket
     print "(me)> "
     text_to_send = gets.chomp
     socket.puts text_to_send
-    # puts "\"#{text_to_send}\" sent"
   end
 end
 
